@@ -39,8 +39,11 @@ Pod::Spec.new do |s|
   
   
 
-  s.preserve_paths      = "FinalChat/ChatDummyNewy.xcframework"
-  s.vendored_frameworks = "FinalChat/ChatDummyNewy.xcframework"
+  #s.preserve_paths      = "ChatDummyNewy.xcframework"
+  #s.vendored_frameworks = "ChatDummyNewy.xcframework"
+  
+  s.preserve_paths      = '**/ChatDummyNewy.xcframework'
+  s.vendored_frameworks = '**/ChatDummyNewy.xcframework'
   
   s.frameworks = ['UIKit', 'Foundation', 'QuickLook', 'Photos', 'MobileCoreServices']
 
