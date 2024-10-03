@@ -30,11 +30,16 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
-#  s.pod_target_xcconfig = {
-#  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-#  }
+  
+  s.pod_target_xcconfig = {
+  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  
+  s.source       = { :http => 'https://github.com/sanjaykhatri02/FinalChat/raw/main//ChatDummyNewy.zip' }
+  
+  
 
-  #s.preserve_paths      = "ChatDummyNewy.xcframework"
+  s.preserve_paths      = "ChatDummyNewy.xcframework"
   s.vendored_frameworks = "ChatDummyNewy.xcframework"
   
   s.frameworks = ['UIKit', 'Foundation', 'QuickLook', 'Photos', 'MobileCoreServices']
