@@ -109,7 +109,7 @@
 		04A4B0952CAE6E1C0069E044 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4B02F2CAE6E1B0069E044 /* Toast.swift */; };
 		04A4B0962CAE6E1C0069E044 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4B0302CAE6E1B0069E044 /* CustomLabel.swift */; };
 		04A4B0972CAE6E1C0069E044 /* RecieveMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4B0312CAE6E1B0069E044 /* RecieveMessage.swift */; };
-		04A4B0992CAE70900069E044 /* ChatDummyNewy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A4B0982CAE70900069E044 /* ChatDummyNewy.xcframework */; };
+		04A4B09B2CAE73380069E044 /* ChatDummyNewy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A4B09A2CAE73380069E044 /* ChatDummyNewy.xcframework */; };
 		08540F7AE8C3FBF58829F0AA5FACC40D /* FinalChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D18F07761ABE325A1833E61E6B3415F /* FinalChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1010E3CA2F7D3DA3A50A80345571DDC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2AEA17D665C857F09EFB29DA54D68792 /* Pods-FinalChat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56402209B09D63D3D662D8037842F5D9 /* Pods-FinalChat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -241,7 +241,7 @@
 		04A4B02F2CAE6E1B0069E044 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		04A4B0302CAE6E1B0069E044 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		04A4B0312CAE6E1B0069E044 /* RecieveMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecieveMessage.swift; sourceTree = "<group>"; };
-		04A4B0982CAE70900069E044 /* ChatDummyNewy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ChatDummyNewy.xcframework; sourceTree = "<group>"; };
+		04A4B09A2CAE73380069E044 /* ChatDummyNewy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ChatDummyNewy.xcframework; sourceTree = "<group>"; };
 		15D1E33490573E6E097AC989DF9C5FE7 /* FinalChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FinalChat.release.xcconfig; sourceTree = "<group>"; };
 		1BC9DBFBA2C6A2F16AA682E307F1981F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2DD1BE19CE77FDDDC9CC179DDFDC2E75 /* FinalChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FinalChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -298,7 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1010E3CA2F7D3DA3A50A80345571DDC4 /* Foundation.framework in Frameworks */,
-				04A4B0992CAE70900069E044 /* ChatDummyNewy.xcframework in Frameworks */,
+				04A4B09B2CAE73380069E044 /* ChatDummyNewy.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +476,7 @@
 			children = (
 				04A4AFD72CAE6E1B0069E044 /* Classes */,
 				04A4AFC72CAE6E1A0069E044 /* Resources */,
-				04A4B0982CAE70900069E044 /* ChatDummyNewy.xcframework */,
+				04A4B09A2CAE73380069E044 /* ChatDummyNewy.xcframework */,
 				36FE3C70CB666071017FD820EA9FFD7D /* Pod */,
 				F383D19D552FD07168F68ABAB68C50DF /* Support Files */,
 			);

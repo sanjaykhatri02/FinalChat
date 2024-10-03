@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
-  s.pod_target_xcconfig = {
-  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
+#  s.pod_target_xcconfig = {
+#  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+#  }
 
-  s.preserve_paths      = "ChatDummyNewy.xcframework"
+  #s.preserve_paths      = "ChatDummyNewy.xcframework"
   s.vendored_frameworks = "ChatDummyNewy.xcframework"
   
   s.frameworks = ['UIKit', 'Foundation', 'QuickLook', 'Photos', 'MobileCoreServices']
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
   s.dependency 'Kingfisher'
   s.dependency 'Cosmos'
 
-  #s.static_framework = true
+  s.static_framework = true
 
   
   #s.source_files = 'FinalChat/Classes/**/*'
