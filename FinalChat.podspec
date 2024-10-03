@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   s.dependency 'Kingfisher'
   s.dependency 'Cosmos'
 
-  s.static_framework = true
+  #s.static_framework = true
 
   
   #s.source_files = 'FinalChat/Classes/**/*'
