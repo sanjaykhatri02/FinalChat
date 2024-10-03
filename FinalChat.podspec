@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FinalChat'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A ChatTestDemo App That is Demo. that is enough for now'
 
 # This description is used to generate tags and improve search results.
@@ -49,15 +49,17 @@ Pod::Spec.new do |s|
 
 
   s.dependency 'Alamofire', '>= 5.0', '< 6.0'
-  s.dependency 'SwiftyJSON'
-  s.dependency 'FMDB'
-  s.dependency 'SwiftSignalRClient'
-  s.dependency 'IQKeyboardManager'
+  s.dependency 'SwiftyJSON', '>= 5.0', '< 6.0'
+  s.dependency 'FMDB', '>= 2.7', '< 3.0'
+  s.dependency 'SwiftSignalRClient', '>= 0.8', '< 1.0'
+  s.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
   s.dependency 'Firebase/Core'
   s.dependency 'Firebase/Messaging'
-  s.dependency 'Kingfisher'
-  s.dependency 'Cosmos'
+  s.dependency 'Kingfisher', '>= 7.0', '< 8.0'
+  s.dependency 'Cosmos', '>= 23.0', '< 24.0'
 
+
+  
   #s.static_framework = true
 
   
