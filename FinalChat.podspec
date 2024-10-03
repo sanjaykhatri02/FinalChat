@@ -21,16 +21,39 @@ Pod::Spec.new do |s|
   'A ChatTestDemo App That is Demo. Once Intalled and the use it Easily.'
                        DESC
 
-  s.homepage         = 'https://github.com/sanjay.khatri02@outlook.com/FinalChat'
+  s.homepage         = 'https://github.com/sanjaykhatri02/FinalChat'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sanjay.khatri02@outlook.com' => 'sanjay.khatri02@outlook.com' }
-  s.source           = { :git => 'https://github.com/sanjay.khatri02@outlook.com/FinalChat.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sanjaykhatri02/FinalChat.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
+  s.pod_target_xcconfig = {
+  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
 
-  s.source_files = 'FinalChat/Classes/**/*'
+  s.preserve_paths      = "ChatDummyNewy.xcframework"
+  s.vendored_frameworks = "ChatDummyNewy.xcframework"
+  
+  s.frameworks = ['UIKit', 'Foundation', 'QuickLook', 'Photos', 'MobileCoreServices']
+
+
+  s.dependency 'Alamofire', '>= 5.0', '< 6.0'
+  s.dependency 'SwiftyJSON'
+  s.dependency 'FMDB'
+  s.dependency 'SwiftSignalRClient'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'Firebase/Core'
+  s.dependency 'Firebase/Messaging'
+  s.dependency 'Kingfisher'
+  s.dependency 'Cosmos'
+
+  #s.static_framework = true
+
+  
+  #s.source_files = 'FinalChat/Classes/**/*'
   
   # s.resource_bundles = {
   #   'FinalChat' => ['FinalChat/Assets/*.png']
