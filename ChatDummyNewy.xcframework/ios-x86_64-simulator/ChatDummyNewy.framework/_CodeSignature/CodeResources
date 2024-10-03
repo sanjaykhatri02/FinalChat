@@ -52,14 +52,6 @@
 		<data>
 		/Sb06B4jNlooWaiVWQXepE37v1g=
 		</data>
-		<key>Cosmos.bundle/Info.plist</key>
-		<data>
-		E7GviWSx5WZqSRJfhX6N4/ZqvRo=
-		</data>
-		<key>Cosmos.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		i3YpomTpJHpRGpdt+oGaesmknBg=
-		</data>
 		<key>FMDB_Privacy.bundle/Info.plist</key>
 		<data>
 		UB9pZapzb+1EmdYPNvaQTrCC0Tw=
@@ -87,14 +79,6 @@
 		<key>Info.plist</key>
 		<data>
 		IfTUKQ0MMlsw376ABc9O+0JTN9M=
-		</data>
-		<key>Kingfisher.bundle/Info.plist</key>
-		<data>
-		7MuovyqWnOTuBMwnL70EZj60e54=
-		</data>
-		<key>Kingfisher.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		hGVuuzmjt5sKGjVNh+ZspIKBF7c=
 		</data>
 		<key>MainChat.storyboardc/2bZ-Fh-QGx-view-3Y0-9T-DtI.nib/objects-14.0+.nib</key>
 		<data>
@@ -150,15 +134,15 @@
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		yy2jeNoE/SrWo7Bq28KYvfdw2iw=
+		/DI81gAhfjYoBiRH9+Ph95qVVrM=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bsIpR5IkmzImQWnTobra5K5EsX8=
+		KxvWS3IBiveIfrdf2+81fl1Ibsg=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		sCWfG7uE2xFskMAYKQxLi9+T/h8=
+		lrHW8C2YGaw/7T7C4ZK5xkgyrDo=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -166,11 +150,11 @@
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		sCWfG7uE2xFskMAYKQxLi9+T/h8=
+		lrHW8C2YGaw/7T7C4ZK5xkgyrDo=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sJonIcbzlvH1ZHydEq5rx3sloFE=
+		SEpZxFgvPAc2f+w4r43RxZBGJ4M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -291,20 +275,6 @@
 			ULFGW6l7VOPWAaN//Wgt5Oy5fu7l5PhavOTIU0Vfdag=
 			</data>
 		</dict>
-		<key>Cosmos.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YKHN2EZf1/Hj3gN2c7XdJjY/V+au0X1CgJJcd9yyfuY=
-			</data>
-		</dict>
-		<key>Cosmos.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jWXQtDoSYs/inoM5bACz25T7Eg1E0RiNknNB8UpsIjw=
-			</data>
-		</dict>
 		<key>FMDB_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -345,20 +315,6 @@
 			<key>hash2</key>
 			<data>
 			NzH9eSR3GTVLxN2mojV2HnD7wXmlHbbqaFGLIoT7WQg=
-			</data>
-		</dict>
-		<key>Kingfisher.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7EM3pMcvAKocXwCNgf5GpJXGmYxve2bMv1C9qGTWY1I=
-			</data>
-		</dict>
-		<key>Kingfisher.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yFi3Q8Y5579kQ1TeQdEowO5K8T00j1zU5gSSpLKH2/k=
 			</data>
 		</dict>
 		<key>MainChat.storyboardc/2bZ-Fh-QGx-view-3Y0-9T-DtI.nib/objects-14.0+.nib</key>
@@ -456,21 +412,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VEdgqYmLYXGA0zbCDyT4Ldh2YNk+HIPj/kkP9X8Wv2o=
+			HwP3o8eiJdK9QAn0JbOZFjLXzaPy04lb0f8DaJAxdKY=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jeO+spoT1lUUs0c78wYdEOMl5i2B4NjmMiKDTy7Hvf8=
+			GO3JzKLdMI9IOwujBa952RM7LbI8/xE8J0ctS2QGR7w=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uo4mjUqs6nctl7qtYtc0EqekaZMLRoDuuywzIr/MjLI=
+			FA4jABM6A5hsVFbetrVWdumuXiKP+e4nSBqm9PNbd6Y=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -484,14 +440,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uo4mjUqs6nctl7qtYtc0EqekaZMLRoDuuywzIr/MjLI=
+			FA4jABM6A5hsVFbetrVWdumuXiKP+e4nSBqm9PNbd6Y=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RmOjk3SlCAtEyYTBlgritzFyXwYrcS2w3B/IJTlDIOw=
+			P0Dbq6EwMq4LLNFRKDfzYmJxUUEholwvgJF7xrMO9rU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

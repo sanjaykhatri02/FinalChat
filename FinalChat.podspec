@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FinalChat'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A ChatTestDemo App That is Demo. that is enough for now'
 
 # This description is used to generate tags and improve search results.
@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
   s.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
   s.dependency 'Firebase/Core'
   s.dependency 'Firebase/Messaging'
-  s.dependency 'Kingfisher', '>= 7.0.0', '< 8.0.3'
+  #s.dependency 'Kingfisher', '>= 7.0.0', '< 8.0.3'
   s.dependency 'Cosmos', '>= 23.0', '< 24.0'
 
 
