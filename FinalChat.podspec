@@ -31,19 +31,21 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
   
-  s.pod_target_xcconfig = {
-  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
+#  s.pod_target_xcconfig = {
+#  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+#  }
   
   #s.source       = { :http => 'https://github.com/sanjaykhatri02/FinalChat/raw/main//ChatDummyNewy.zip' }
   
+  s.source_files = 'Classes/**/*.{swift,h,m}'
+  s.resources = 'Resources/**/*.{storyboard,xib,xcassets,png,jpeg,jpg,gif}'
   
 
   #s.preserve_paths      = "ChatDummyNewy.xcframework"
   #s.vendored_frameworks = "ChatDummyNewy.xcframework"
   
-  s.preserve_paths      = '**/ChatDummyNewy.xcframework'
-  s.vendored_frameworks = '**/ChatDummyNewy.xcframework'
+  #s.preserve_paths      = '**/ChatDummyNewy.xcframework'
+  #s.vendored_frameworks = '**/ChatDummyNewy.xcframework'
   
   s.frameworks = ['UIKit', 'Foundation', 'QuickLook', 'Photos', 'MobileCoreServices']
 
@@ -55,7 +57,7 @@ Pod::Spec.new do |s|
   s.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
   s.dependency 'Firebase/Core'
   s.dependency 'Firebase/Messaging'
-  #s.dependency 'Kingfisher', '>= 7.0.0', '< 8.0.3'
+  s.dependency 'Kingfisher', '>= 7.0.0', '< 8.0.3'
   s.dependency 'Cosmos', '>= 23.0', '< 24.0'
 
 
