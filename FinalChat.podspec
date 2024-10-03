@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/sanjaykhatri02/FinalChat.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
   
   s.pod_target_xcconfig = {
@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
   s.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
   s.dependency 'Firebase/Core'
   s.dependency 'Firebase/Messaging'
-  s.dependency 'Kingfisher', '>= 7.0', '< 8.0'
+  s.dependency 'Kingfisher', '>= 7.0.0', '< 8.0.3'
   s.dependency 'Cosmos', '>= 23.0', '< 24.0'
 
 
